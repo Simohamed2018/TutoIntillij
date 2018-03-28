@@ -73,8 +73,8 @@
       <file leaf-file-name="flights.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util/flights.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88716817" vertical-offset="126" max-vertical-offset="646">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.8495575" vertical-offset="126" max-vertical-offset="612">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -696,12 +696,12 @@
       <workItem from="1522110509892" duration="1398000" />
       <workItem from="1522112476146" duration="762000" />
       <workItem from="1522190261252" duration="4018000" />
-      <workItem from="1522198102266" duration="194000" />
+      <workItem from="1522198102266" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8900000" />
+    <option name="totallyTimeSpent" value="9107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="8" width="1260" height="944" extended-state="0" />
@@ -959,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/flights.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88716817" vertical-offset="126" max-vertical-offset="646">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.8495575" vertical-offset="126" max-vertical-offset="612">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
