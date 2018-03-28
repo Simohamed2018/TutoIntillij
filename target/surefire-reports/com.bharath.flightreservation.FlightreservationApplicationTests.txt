@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.bharath.flightreservation.FlightreservationApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 21.742 sec <<< FAILURE! - in com.bharath.flightreservation.FlightreservationApplicationTests
+testGenerateItenarary(com.bharath.flightreservation.FlightreservationApplicationTests)  Time elapsed: 0.703 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bharath.flightreservation.FlightreservationApplicationTests.testGenerateItenarary(FlightreservationApplicationTests.java:42)
+
+testEmail(com.bharath.flightreservation.FlightreservationApplicationTests)  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bharath.flightreservation.FlightreservationApplicationTests.testEmail(FlightreservationApplicationTests.java:49)
+

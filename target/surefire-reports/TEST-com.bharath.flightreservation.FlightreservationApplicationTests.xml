@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bharath.flightreservation.FlightreservationApplicationTests" time="0.715" tests="3" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\test\flightreservation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\test\flightreservation"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SIMOHA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\Simohamed\Documents\designPattern\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4950386302106900832.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_151\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Druide\Antidote 7\Programmes32;C:\Program Files (x86)\Druide\Antidote 7\Programmes64;C:\Program Files\Apache\maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_150\bin;C:\sts-bundle\sts-3.9.2.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Simohamed"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Simohamed"/>
+    <property name="java.class.path" value="C:\sts-bundle\sts-3.9.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\test\flightreservation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testGenerateItenarary" classname="com.bharath.flightreservation.FlightreservationApplicationTests" time="0.703">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bharath.flightreservation.FlightreservationApplicationTests.testGenerateItenarary(FlightreservationApplicationTests.java:42)
+</error>
+    <system-out><![CDATA[21:06:30,546 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+21:06:30,546 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+21:06:30,547 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/test/flightreservation/target/classes/logback.xml]
+21:06:30,709 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+21:06:30,724 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+21:06:30,730 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+21:06:30,844 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@540642172 - No compression will be used
+21:06:30,846 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@540642172 - Will use the pattern /Users/Simohamed/Documents/logs/archived/flightreservation.%d{yyyy-MM-dd}.%i.log for the active file
+21:06:30,849 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6fc6f14e - The date pattern is 'yyyy-MM-dd' from file name pattern '/Users/Simohamed/Documents/logs/archived/flightreservation.%d{yyyy-MM-dd}.%i.log'.
+21:06:30,849 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6fc6f14e - Roll-over at midnight.
+21:06:30,854 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6fc6f14e - Setting initial period to Mon Mar 26 21:06:30 EDT 2018
+21:06:30,854 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6fc6f14e - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+21:06:30,854 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6fc6f14e - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+21:06:30,857 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /Users/Simohamed/Documents/logs/flightreservation.log
+21:06:30,857 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/Users/Simohamed/Documents/logs/flightreservation.log]
+21:06:30,859 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+21:06:30,859 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+21:06:30,860 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@56235b8e - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.9.RELEASE)
+
+Hibernate: select reservatio0_.id as id1_2_0_, reservatio0_.checked_in as checked_2_2_0_, reservatio0_.flight_id as flight_i4_2_0_, reservatio0_.number_of_bags as number_o3_2_0_, reservatio0_.passenger_id as passenge5_2_0_, flight1_.id as id1_0_1_, flight1_.arrival_city as arrival_2_0_1_, flight1_.date_of_departure as date_of_3_0_1_, flight1_.departure_city as departur4_0_1_, flight1_.estimated_departure_time as estimate5_0_1_, flight1_.flight_number as flight_n6_0_1_, flight1_.operating_airlines as operatin7_0_1_, passenger2_.id as id1_1_2_, passenger2_.email as email2_1_2_, passenger2_.first_name as first_na3_1_2_, passenger2_.last_name as last_nam4_1_2_, passenger2_.middle_name as middle_n5_1_2_, passenger2_.phone as phone6_1_2_ from reservation reservatio0_ left outer join flight flight1_ on reservatio0_.flight_id=flight1_.id left outer join passenger passenger2_ on reservatio0_.passenger_id=passenger2_.id where reservatio0_.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="testEmail" classname="com.bharath.flightreservation.FlightreservationApplicationTests" time="0.012">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bharath.flightreservation.FlightreservationApplicationTests.testEmail(FlightreservationApplicationTests.java:49)
+</error>
+    <system-out><![CDATA[Hibernate: select reservatio0_.id as id1_2_0_, reservatio0_.checked_in as checked_2_2_0_, reservatio0_.flight_id as flight_i4_2_0_, reservatio0_.number_of_bags as number_o3_2_0_, reservatio0_.passenger_id as passenge5_2_0_, flight1_.id as id1_0_1_, flight1_.arrival_city as arrival_2_0_1_, flight1_.date_of_departure as date_of_3_0_1_, flight1_.departure_city as departur4_0_1_, flight1_.estimated_departure_time as estimate5_0_1_, flight1_.flight_number as flight_n6_0_1_, flight1_.operating_airlines as operatin7_0_1_, passenger2_.id as id1_1_2_, passenger2_.email as email2_1_2_, passenger2_.first_name as first_na3_1_2_, passenger2_.last_name as last_nam4_1_2_, passenger2_.middle_name as middle_n5_1_2_, passenger2_.phone as phone6_1_2_ from reservation reservatio0_ left outer join flight flight1_ on reservatio0_.flight_id=flight1_.id left outer join passenger passenger2_ on reservatio0_.passenger_id=passenger2_.id where reservatio0_.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="contextLoads" classname="com.bharath.flightreservation.FlightreservationApplicationTests" time="0"/>
+</testsuite>
