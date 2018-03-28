@@ -28,3 +28,6 @@ insert into flight values(9,'SW3','South West','NYC',
 
 insert into flight values(10,'UA1','United Airlines','NYC',
 'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
+-- duplicate ligne
+insert into flight values(11,'UA1','United Airlines','NYC',
+'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
