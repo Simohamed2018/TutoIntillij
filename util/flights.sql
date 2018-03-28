@@ -27,4 +27,6 @@ insert into flight values(9,'SW3','South West','NYC',
 'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
 
 insert into flight values(10,'UA1','United Airlines','NYC',
-'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
+
+--sql sttament must be add in the end of the creation DDl
+--add from mars 2018 by Mohamed
