@@ -22,12 +22,10 @@ insert into flight values(7,'SW1','South West','AUS',
 insert into flight values(8,'SW2','South West','AUS',
 'NYC',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 08:14:07')
 
-
 insert into flight values(9,'SW3','South West','NYC',
 'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
 
 insert into flight values(10,'UA1','United Airlines','NYC',
-
 'DAL',STR_TO_DATE('02-06-2018', '%m-%d-%Y'),'2018-02-06 10:14:07')
 
 
